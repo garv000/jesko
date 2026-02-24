@@ -11,6 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const videorRef = useRef(null);
   useGSAP(() => {
+    if (!videorRef.current) return;
     const duration = videorRef.current.duration;
     gsap.to(videorRef.current, {
       currentTime: duration,
