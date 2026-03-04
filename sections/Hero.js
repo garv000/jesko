@@ -60,7 +60,6 @@ const Hero = () => {
         trigger: ".hero-content",
         start: "center 20%",
         scrub: true,
-        pin: true,
       },
         position: 'fixed',
         scale: '0.8',
