@@ -12,7 +12,8 @@ const Hero = () => {
   const videorRef = useRef(null);
   useGSAP(() => {
     if (!videorRef.current) return;
-    const duration = videorRef.current.duration;
+    const duration = videorRef.current.duration || 5;
+    if (!duration) return;
     gsap.to(videorRef.current, {
       currentTime: duration,
       scrollTrigger: {
