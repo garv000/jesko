@@ -55,21 +55,25 @@ const Hero = () => {
       ".logo",
       {
         scrollTrigger: {
-        trigger: ".hero-content",
-        start: "center 20%",
-        scrub: true,
-      },
-        position: 'fixed',
-        scale: '0.8',
+          trigger: ".hero-content",
+          start: "center 20%",
+          scrub: true,
+        },
+        position: "fixed",
+        scale: "0.8",
         ease: "none",
       },
       0,
     );
-  });
+  }, []);
   return (
     <section id="hero" className="relative w-screen h-[200vh] text-white">
       <div className="w-full h-screen flex items-center justify-center">
-        <a id="hero-svg" href="#hero" className="logo text-4xl z-10 sticky top-8 transition-colors duration-500">
+        <a
+          id="hero-svg"
+          href="#hero"
+          className="logo text-4xl z-10 sticky top-8 transition-colors duration-500"
+        >
           <svg
             width="100%"
             height="100%"
