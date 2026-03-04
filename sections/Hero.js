@@ -184,7 +184,7 @@ const Hero = () => {
         ref={videorRef}
         src="/videos/hero4.mp4"
         className="hero-video absolute inset-0 w-screen h-screen object-cover overflow-hidden"
-        preload="auto"
+        preload="metadata"
         playsInline
         muted
       />
