@@ -44,7 +44,7 @@ export default function Home() {
       <Hero />
       <Cloud />
       <Flight />
-      {/* <Benefits /> */}
+      <Benefits />
     </>
   );
 }

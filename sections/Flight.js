@@ -71,7 +71,7 @@ const Flight = () => {
   return (
     <div
       id="flight"
-      className="relative overflow-hidden w-screen h-screen text-[#312726] bg-[linear-gradient(180deg,#7A716E_0%,#FFF8ED_100%)]"
+      className="relative overflow-hidden w-screen h-screen text-[#312726] bg-[linear-gradient(180deg,#7A716E_0%,#FFF8ED_0%)]"
     >
       <section
         id="flight1"

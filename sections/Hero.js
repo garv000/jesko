@@ -167,11 +167,11 @@ const Hero = () => {
       </div>
 
       <div className="fixed bottom-10 w-full flex justify-center z-50">
-        <a href="#" className="flex bg-white/30 rounded-full p-2 gap-1">
-          <button className="bg-white rounded-full text-xs text-black font-bold px-4 py-2 cursor-pointer">
+        <a href="#" className="flex bg-white/30 rounded-full p-2 gap-1 shadow-lg">
+          <button className="bg-white rounded-full text-xs text-black font-bold px-4 py-2 cursor-pointer shadow-lg">
             Book the Flight
           </button>
-          <button className="bg-white rounded-full p-2 cursor-pointer">
+          <button className="bg-white rounded-full p-2 cursor-pointer shadow-lg">
             <Image
               src="/images/airplane.png"
               alt="airplane icon"
