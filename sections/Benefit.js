@@ -1,114 +1,3 @@
-// import React, { useRef } from "react";
-// import Image from "next/image";
-
-// const Benefit = () => {
-//   const first = useRef(null);
-//   const second = useRef(null);
-//   const third = useRef(null);
-//   const fourth = useRef(null);
-//   const handlefirst = () => {
-//     first.current.classList.toggle("hidden");
-//   };
-
-//   return (
-//     <section
-//       id="benefit"
-//       className="w-screen h-screen px-28 text-[#312726] bg-[linear-gradient(0deg,#7A716E_0%,#FFF8ED_0%)]"
-//     >
-//       <div className="w-full h-full flex flex-col pt-28 pb-14 gap-8">
-//         <div className="w-full h-full flex justify-between gap-4">
-//           <div className="w-full flex flex-col gap-2">
-//             <div className="w-full h-px bg-[#7a716e60]"></div>
-//             <h2 className="text-xs font-bold uppercase">A better way to fly</h2>
-//             <div className="w-1/2 h-full content-center">
-//               <div className="w-full h-px bg-[#7a716e60]"></div>
-//               <div
-//                 onClick={handlefirst}
-//                 className="flex justify-between items-center py-2 hover:py-4 transition-all duration-500 cursor-pointer"
-//               >
-//                 <div className="text-2xl font-bold">Pets</div>
-//                 <div className="text-4xl">+</div>
-//               </div>
-//               <div ref={first} className="text-xs font-bold mt-12 mb-6 hidden">
-//                 Traveling with pets on a private jet means comfort and peace of
-//                 mind for both owners and their companions. Our dedicated team
-//                 ensures seamless arrangements, from documentation and safety to
-//                 onboard care, so that your pet enjoys the same level of
-//                 attention and luxury as you do. Every detail is managed to
-//                 create a stress-free and enjoyable journey for everyone on
-//                 board.
-//               </div>
-//               <div className="w-full h-px bg-[#7a716e60]"></div>
-//               <div
-//                 onClick={handlesecond}
-//                 className="flex justify-between items-center py-2 hover:py-4 transition-all duration-500 cursor-pointer"
-//               >
-//                 <div className="text-2xl font-bold">24/7 availability</div>
-//                 <div className="text-4xl">+</div>
-//               </div>
-//               <div ref={second} className="text-xs font-bold mt-12 mb-6 hidden">
-//                 Traveling with pets on a private jet means comfort and peace of
-//                 mind for both owners and their companions. Our dedicated team
-//                 ensures seamless arrangements, from documentation and safety to
-//                 onboard care, so that your pet enjoys the same level of
-//                 attention and luxury as you do. Every detail is managed to
-//                 create a stress-free and enjoyable journey for everyone on
-//                 board.
-//               </div>
-//               <div className="w-full h-px bg-[#7a716e60]"></div>
-//               <div
-//                 onClick={handlethird}
-//                 className="flex justify-between items-center py-2 hover:py-4 transition-all duration-500 cursor-pointer"
-//               >
-//                 <div className="text-2xl font-bold">Onboard services</div>
-//                 <div className="text-4xl">+</div>
-//               </div>
-//               <div ref={third} className="text-xs font-bold mt-12 mb-6 hidden">
-//                 Traveling with pets on a private jet means comfort and peace of
-//                 mind for both owners and their companions. Our dedicated team
-//                 ensures seamless arrangements, from documentation and safety to
-//                 onboard care, so that your pet enjoys the same level of
-//                 attention and luxury as you do. Every detail is managed to
-//                 create a stress-free and enjoyable journey for everyone on
-//                 board.
-//               </div>
-//               <div className="w-full h-px bg-[#7a716e60]"></div>
-//               <div
-//                 onClick={handlefourth}
-//                 className="flex justify-between items-center py-2 hover:py-4 transition-all duration-500 cursor-pointer"
-//               >
-//                 <div className="text-2xl font-bold">Efficient</div>
-//                 <div className="text-4xl">+</div>
-//               </div>
-//               <div ref={fourth} className="text-xs font-bold mt-12 mb-6 hidden">
-//                 Traveling with pets on a private jet means comfort and peace of
-//                 mind for both owners and their companions. Our dedicated team
-//                 ensures seamless arrangements, from documentation and safety to
-//                 onboard care, so that your pet enjoys the same level of
-//                 attention and luxury as you do. Every detail is managed to
-//                 create a stress-free and enjoyable journey for everyone on
-//                 board.
-//               </div>
-//               <div className="w-full h-px bg-[#7a716e60]"></div>
-//             </div>
-//           </div>
-//           <div className="w-2/3 h-full">
-//             <Image
-//               src="/images/pets.webp"
-//               alt="Benefit"
-//               width={1000}
-//               height={1000}
-//               className="w-full h-full object-cover"
-//             />
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Benefit;
-
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
@@ -288,7 +177,9 @@ const Benefit = () => {
         <div className="w-full h-px bg-[#7a716e60]"></div>
         <div className="w-full h-full flex justify-between py-4">
           <div className="flex flex-col">
-            <h2 className="text-xs font-bold uppercase opacity-40">countries supported</h2>
+            <h2 className="text-xs font-bold uppercase opacity-40">
+              countries supported
+            </h2>
             <h2 className="text-xs font-bold uppercase">174</h2>
           </div>
           <div className="flex flex-col">
@@ -296,7 +187,9 @@ const Benefit = () => {
             <h2 className="text-xs font-bold uppercase">dubai, uae</h2>
           </div>
           <div className="flex gap-2">
-            <h2 className="text-xs font-bold uppercase opacity-40">local time</h2>
+            <h2 className="text-xs font-bold uppercase opacity-40">
+              local time
+            </h2>
             <h2 className="text-4xl font-bold uppercase">18:15</h2>
           </div>
         </div>
